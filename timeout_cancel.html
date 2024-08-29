@@ -1,0 +1,25 @@
+~<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var cancellable = function(fn, args, t) {
+    const timeout = setTimeout(() => fn(...args),t);
+    const cancelFn = () => clearTimeout(timeout);
+    return cancelFn;
+};
+const fn = (x) => x * 5;
+const args = [2], t = 5000;
+const cancelLog = cancellable(fn,args,t);
+setTimeout(()=> {
+    cancelLog();
+    console.log("Cancelled !");
+},2000);
+
+    </script>
+</body>
+</html>
