@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var reverseWords = function(s) {
+    let res = [];
+    let words = s.split(" ");
+    for(let i=0;i<words.length;i++){
+        if(words[i] ==''){
+            continue;
+        }
+        res.push(words[i]);
+       }
+        return res.reverse().join(" ");
+};
+
+console.log(reverseWords("a  good   day  "));
+
+    </script>
+</body>
+</html>
