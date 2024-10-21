@@ -1,13 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <script>
-        var calculate = function(s) {
+var calculate = function(s) {
     let total =0;
     let current =0;
     let sign = 1;
@@ -41,6 +32,3 @@
 };
 console.log(calculate("(1+(4+5+2)-3)+(6+8)"));
 
-    </script>
-</body>
-</html>

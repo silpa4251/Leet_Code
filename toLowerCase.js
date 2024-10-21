@@ -1,13 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <script>
-        var toLowerCase = function(s) {
+var toLowerCase = function(s) {
     let res = "";
     for(const char of s) {
         const index = char.charCodeAt(0);
@@ -20,6 +11,3 @@
     return res;
 };
 console.log(toLowerCase("HeLlo"));
-    </script>
-</body>
-</html>

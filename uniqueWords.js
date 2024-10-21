@@ -1,12 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <script>
+
         function specific (str1,str2){
           let word1= str1.split(" ");
           let word2= str2.split(" ");
@@ -22,6 +14,3 @@
         let str1="this is sour";
         let str2="this is sweet";
         console.log(specific(str1,str2));
-    </script>
-</body>
-</html>

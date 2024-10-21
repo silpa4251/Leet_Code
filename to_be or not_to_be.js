@@ -1,12 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <script>
+
         var expect = function(val) {
     return {
         toBe: (val2) => { if(val2 !== val) throw new Error('Not Equal')
@@ -17,6 +9,3 @@
 };
 console.log(expect(5).toBe(5));
 console.log(expect(5).notToBe(5));
-    </script>
-</body>
-</html>

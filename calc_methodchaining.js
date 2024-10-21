@@ -1,13 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <script>
-        class Calculator {
+class Calculator {
     
             constructor(value) {
             this.result=value;
@@ -49,6 +40,3 @@
 
         const output = new Calculator(10).add(5).subtract(7).getResult() ;
         console.log(output);
-    </script>
-</body>
-</html>
