@@ -25,3 +25,4 @@ function isletter(char){
 }
 
 console.log(reverseOnlyLetters("a-pl-is"));
+
