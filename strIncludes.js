@@ -8,3 +8,5 @@ var numOfStrings = function(patterns, word) {
     }
      return count;
 };
+
+console.log(numOfStrings(["a","abc","bc","d"],"abcd"))
