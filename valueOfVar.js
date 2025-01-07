@@ -10,4 +10,4 @@ var finalValueAfterOperations = function(operations) {
     }
     return res;
 };
-console.log(finalValueAfterOperations(["--X","X++","X++"]))
+console.log(finalValueAfterOperations(["++X","++X","X++"]))
