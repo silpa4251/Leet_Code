@@ -10,4 +10,4 @@ var toLowerCase = function (s) {
   }
   return res;
 };
-console.log(toLowerCase("HeLlo"));
+console.log(toLowerCase("HeLlo WoRLd"));
