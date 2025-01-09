@@ -11,4 +11,4 @@ var countWords = function(words1, words2) {
     }
     return count;
 };
-console.log(countWords(["leetcode","is","amazing","as","is"],))
+console.log(countWords(["leetcode","is","amazing","as","is"],["amazing","leetcode","is"]))
