@@ -7,4 +7,4 @@ var detectCapitalUse = function(word) {
         return false;
 };
 
-console.log(detectCapitalUse("GoogleMaps"));
+console.log(detectCapitalUse("Google"));
