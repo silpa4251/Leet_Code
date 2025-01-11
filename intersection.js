@@ -6,4 +6,4 @@ var intersection = function(nums1, nums2) {
 
 };
 
-console.log(intersection([1,2,2,3],[2,2]));
+console.log(intersection([1,2,2,3,4,5,6],[2,2,3]));
