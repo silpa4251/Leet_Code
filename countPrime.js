@@ -12,4 +12,4 @@ var countPrimes = function(n) {
     return isPrime.reduce((count,num) => count+(num? 1 : 0),0);
 };
 
-console.log(countPrimes(50));
+console.log(countPrimes(35));
