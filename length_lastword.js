@@ -1,15 +1,6 @@
-var lengthOfLastWord = function (s) {
-  let len = 0;
-  let i = s.length - 1;
-  while (i >= 0 && s[i] === " ") {
-    i--;
-  }
-
-  while (i >= 0 && s[i] !== " ") {
-    len++;
-    i--;
-  }
-  return len;
+var lengthOfLastWord = function(s) {
+    let words = s.trim().split(' ');
+    return words[words.length-1].length;
 };
 
 let s = "Hello world";
