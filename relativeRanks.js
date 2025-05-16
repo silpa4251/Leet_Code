@@ -17,4 +17,4 @@ var findRelativeRanks = function(score) {
 
 };
 
-console.log(findRelativeRanks([5,4,3,2,1]));
+console.log(findRelativeRanks([10,3,8,9,4]));
