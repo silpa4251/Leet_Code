@@ -9,5 +9,4 @@ var checkIfExist = function(arr) {
     return false;
 };
 
-const arr = [10, 2, 5, 3];
-console.log(checkIfExist(arr)); 
+console.log(checkIfExist([10, 2, 5, 3])); 
